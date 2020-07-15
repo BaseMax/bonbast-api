@@ -10,7 +10,7 @@ US Dollar, Euro, British Pound, Swiss Franc, Canadian Dollar, Australian Dollar,
 
 Data will accessible in **Array** and **JSON** at **PHP** script. You can run php file at a server and getting **live** data from that in every client software.
 
-##### $ php parse.php 
+##### $ php example.php  
 
 ##### JSON
 
