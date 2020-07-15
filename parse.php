@@ -15,8 +15,11 @@ foreach($_prices[1] as $i=>$name) {
 	}
 	$prices[$name]=["buy"=>$_prices["value1"][$i],"sell"=>$_prices["value2"][$i]];
 }
-
-// Display output
+// Filter empty value in array, we can improve code to avoid this...
 $prices=array_filter($prices);
+
+/* Access value and rates */
+// Display output
 print_r($prices);
-// access value and rate...
+// Display JSON
+print json_encode($prices);
