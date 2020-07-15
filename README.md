@@ -2,6 +2,17 @@
 
 Dollar and Euro: Live irr exchange rates in free market - bonbast.com
 
+##  Using
+
+##### $ php parse.php 
+
+```
+Buy Euro: 26990
+Sell Euro: 26990
+Buy Dollar: 23700
+Sell Dollar: 23700
+```
+
 ---------
 
 # Max Base
