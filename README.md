@@ -31,80 +31,80 @@ Array
 
     [Euro] => Array
         (
-            [buy] => 26990
-            [sell] => 26840
+            [buy] => 28065
+            [sell] => 27915
         )
 
     [British Pound] => Array
         (
-            [buy] => 29635
-            [sell] => 29435
+            [buy] => 31145
+            [sell] => 30945
         )
 
     [Swiss Franc] => Array
         (
-            [buy] => 25235
-            [sell] => 25085
+            [buy] => 26015
+            [sell] => 25865
         )
 
     [Canadian Dollar] => Array
         (
-            [buy] => 17415
-            [sell] => 17315
+            [buy] => 17820
+            [sell] => 17720
         )
 
     [Australian Dollar] => Array
         (
-            [buy] => 16465
-            [sell] => 16365
+            [buy] => 17110
+            [sell] => 17010
         )
 
     [Swedish Krona] => Array
         (
-            [buy] => 2595
-            [sell] => 2580
+            [buy] => 2725
+            [sell] => 2710
         )
 
     [Norwegian Krone] => Array
         (
-            [buy] => 2515
-            [sell] => 2500
+            [buy] => 2640
+            [sell] => 2625
         )
 
     [Russian Ruble] => Array
         (
-            [buy] => 333
-            [sell] => 330
+            [buy] => 323
+            [sell] => 320
         )
 
     [Thai Baht] => Array
         (
-            [buy] => 750
-            [sell] => 745
+            [buy] => 760
+            [sell] => 755
         )
 
     [Singapore Dollar] => Array
         (
-            [buy] => 17005
-            [sell] => 16905
+            [buy] => 17295
+            [sell] => 17195
         )
 
     [Hong Kong Dollar] => Array
         (
-            [buy] => 3055
-            [sell] => 3025
+            [buy] => 3060
+            [sell] => 3030
         )
 
     [Azerbaijani Manat] => Array
         (
-            [buy] => 13865
-            [sell] => 13765
+            [buy] => 13975
+            [sell] => 13875
         )
 
     [Danish Krone] => Array
         (
-            [buy] => 3625
-            [sell] => 3605
+            [buy] => 3765
+            [sell] => 3745
         )
 
     [UAE Dirham] => Array
@@ -115,14 +115,14 @@ Array
 
     [Turkish Lira] => Array
         (
-            [buy] => 3450
-            [sell] => 3430
+            [buy] => 3245
+            [sell] => 3225
         )
 
     [Chinese Yuan] => Array
         (
-            [buy] => 3385
-            [sell] => 3365
+            [buy] => 3410
+            [sell] => 3390
         )
 
     [KSA Riyal] => Array
@@ -133,44 +133,80 @@ Array
 
     [Indian Rupee] => Array
         (
-            [buy] => 314
-            [sell] => 312
+            [buy] => 316
+            [sell] => 314
         )
 
     [Ringgit] => Array
         (
-            [buy] => 5555
-            [sell] => 5525
+            [buy] => 5660
+            [sell] => 5630
         )
 
     [Afghan Afghani] => Array
         (
-            [buy] => 307
-            [sell] => 305
+            [buy] => 308
+            [sell] => 306
         )
 
     [Kuwaiti Dinar] => Array
         (
-            [buy] => 76990
-            [sell] => 76590
+            [buy] => 77585
+            [sell] => 77185
         )
 
     [Bahraini Dinar] => Array
         (
-            [buy] => 62855
-            [sell] => 62355
+            [buy] => 62875
+            [sell] => 62375
         )
 
     [Omani Rial] => Array
         (
-            [buy] => 61560
-            [sell] => 61260
+            [buy] => 61565
+            [sell] => 61265
         )
 
     [Qatari Riyal] => Array
         (
             [buy] => 6510
             [sell] => 6480
+        )
+
+    [Gold Coins] => Array
+        (
+            [buy] => Sell
+            [sell] => Buy
+        )
+
+    [Azadi] => Array
+        (
+            [buy] => 11,100,000
+            [sell] => 10,700,000
+        )
+
+    [Emami] => Array
+        (
+            [buy] => 11,530,000
+            [sell] => 11,350,000
+        )
+
+    [½ Azadi] => Array
+        (
+            [buy] => 5,750,000
+            [sell] => 5,550,000
+        )
+
+    [¼ Azadi] => Array
+        (
+            [buy] => 3,350,000
+            [sell] => 3,100,000
+        )
+
+    [Gerami] => Array
+        (
+            [buy] => 1,750,000
+            [sell] => 1,550,000
         )
 
 )
