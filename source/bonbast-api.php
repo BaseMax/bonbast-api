@@ -1,6 +1,10 @@
 <?php
-// Max Base
-// https://github.com/BaseMax/bonbast-api
+/*
+ * @Name: bonbast-api
+ * @Author: Max Base
+ * @Repository: https://github.com/BaseMax/bonbast-api
+ * @Date: Jul 15, 2020
+ */
 include "NetPHP.php";
 function bonbast() {
 	// Get from webpage
