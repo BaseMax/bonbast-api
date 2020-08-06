@@ -4,7 +4,7 @@ Dollar and Euro: Live irr exchange rates in free market - bonbast.com
 
 ## Supported exchanges
 
-US Dollar, Euro, British Pound, Swiss Franc, Canadian Dollar, Australian Dollar, Swedish Krona, Norwegian Krone, Russian Ruble, Thai Baht, Singapore Dollar, Hong Kong Dollar, Azerbaijani Manat, Danish Krone, UAE Dirham, Turkish Lira, Chinese Yuan, KSA Riyal, Indian Rupee, Ringgit, Afghan Afghani, Kuwaiti Dinar, Bahraini Dinar, Omani Rial, Qatari Riyal
+US Dollar, Euro, British Pound, Swiss Franc, Canadian Dollar, Australian Dollar, Swedish Krona, Norwegian Krone, Russian Ruble, Thai Baht, Singapore Dollar, Hong Kong Dollar, Azerbaijani Manat, Danish Krone, UAE Dirham, Turkish Lira, Chinese Yuan, KSA Riyal, Indian Rupee, Ringgit, Afghan Afghani, Kuwaiti Dinar, Bahraini Dinar, Omani Rial, Qatari Riyal, Gold Coins(Bahar Azadi, Emami, One half Azadi, One quarter Azadi, Gerami)
 
 ##  Using
 
