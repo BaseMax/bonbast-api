@@ -19,6 +19,9 @@ function bonbast() {
 		$prefix=html_entity_decode($_prices["gold_prefix"][$i]);
 		if($prefix!=="") { $name=$prefix.$name; }
                 if($name==="Code" || $name==="Gold Coins"){ continue; }
+		// Remove ',' from values
+		$_prices["value1"][$i]=str_replace(",", "", $_prices["value1"][$i]);
+		$_prices["value2"][$i]=str_replace(",", "", $_prices["value2"][$i]);
 		$prices[$name]=["buy"=>$_prices["value1"][$i],"sell"=>$_prices["value2"][$i]];
 	}
 	// Filter empty value in array, we can improve code to avoid this...
