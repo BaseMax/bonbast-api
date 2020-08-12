@@ -18,7 +18,7 @@ function bonbast() {
 		// if(trim($_prices[6][$i]) == "") { continue; }
 		$prefix=html_entity_decode($_prices["gold_prefix"][$i]);
 		if($prefix!=="") { $name=$prefix.$name; }
-                if($name==="Code"){ continue; }
+                if($name==="Code" || $name==="Gold Coins"){ continue; }
 		$prices[$name]=["buy"=>$_prices["value1"][$i],"sell"=>$_prices["value2"][$i]];
 	}
 	// Filter empty value in array, we can improve code to avoid this...
