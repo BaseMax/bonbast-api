@@ -30,9 +30,14 @@ function bonbast()
      */
     preg_match('/data\:"(.*?)"/s', $homepage, $matches);
     if (!isset($matches[1])) {
-        throw new Exception(
-            "Couldn't extract the API key from homepage source."
-        );
+      // if error 403 exists in homepage response
+      if (strpos(strtolower($homepage), "error 403 (forbidden)") !== false) {
+        throw new Exception('The bonbast.com website returned 403 Forbidden response, probably your IP address is blacklisted.');
+      }
+
+      throw new Exception(
+          "Couldn't extract the API key from homepage source."
+      );
     }
 
     /**
