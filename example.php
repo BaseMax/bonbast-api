@@ -1,10 +1,25 @@
 <?php
 // Max Base
 // https://github.com/BaseMax/bonbast-api
-include "source/bonbast-api.php";
+require_once "source/bonbast-api.php";
 
-$prices=bonbast();
-// Display output
-print_r($prices);
-// Display JSON
-print json_encode($prices)."\n";
+try {
+  $api = new BonBast();
+  $prices = $api->fetchPrices();
+
+  // Display output
+  print_r($prices);
+
+  // Display JSON
+  echo json_encode($prices) . PHP_EOL;
+} catch (IPAddressBlockedException $e) {
+  die($e->getMessage());
+} catch (InvalidHTTPStatusException $e) {
+  die($e->getMessage());
+} catch (BadHomepageDataException $e) {
+  die($e->getMessage());
+} catch (InvalidApiKeyException $e) {
+  die($e->getMessage());
+} catch (Exception $e) {
+  die("Invalid exception: " . $e->getMessage());
+}
