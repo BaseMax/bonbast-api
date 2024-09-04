@@ -104,7 +104,7 @@ class BonBast
     /**
      * Extract "body parameters" which are hard coded in homepage response
      */
-    preg_match('/data\:"(.*?)"/s', $homepage, $matches);
+    preg_match('/json\'\, \{param\: \"([^\"]+)\"/s', $homepage, $matches);
 
     // Couldn't extract the API key from homepage source.
     if (!isset($matches[1])) throw new BadHomepageDataException();
@@ -128,7 +128,7 @@ class BonBast
       CURLOPT_SSL_VERIFYHOST => false,
       CURLOPT_SSL_VERIFYPEER => false,
       CURLOPT_TIMEOUT => 0,
-      CURLOPT_POSTFIELDS => "data=" . $key . "&webdriver=false",
+      CURLOPT_POSTFIELDS => "param=" . $key,
       CURLOPT_HTTPHEADER => [
         "user-agent: " . $this->user_agent,
         "content-type: application/x-www-form-urlencoded; charset=UTF-8",
